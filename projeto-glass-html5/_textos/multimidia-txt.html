@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <title> Tudo Sobre Google Glass </title>
+    <link rel="stylesheet" type="text/css" href="../_css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="../_css/media.css">
+
+</head>
+<script language= "javascript"src="../_javascript/funcoes.js"></script>
+<body>
+<div id="interface">
+    <header id="cabecalho">
+        <hgroup>
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
+        </hgroup>
+
+        <img id="icone" src="../_imagens/multimidia.png">
+
+        <nav id="menu">
+            <h1>Menu Principal</h1>
+            <ul>
+                <li onmouseover="mudafoto('../_imagens/home.png')" onmouseout="mudafoto('../_imagens/multimidia.png')"><a href="index-txt.html">Home</a></li>
+                <li onmouseover="mudafoto('../_imagens/especificacoes.png')" onmouseout="mudafoto('../_imagens/multimidia.png')"><a href="specs-txt.html">Especificações</a></li>
+                <li onmouseover="mudafoto('../_imagens/fotos.png')" onmouseout="mudafoto('../_imagens/multimidia.png')"><a href="fotos-txt.html">Fotos</a></li>
+                <li onmouseover="mudafoto('../_imagens/multimidia.png')" onmouseout="mudafoto('../_imagens/multimidia.png')"><a href="multimidia-txt.html">Multimídia</a></li>
+                <li onmouseover="mudafoto('../_imagens/contato.png')" onmouseout="mudafoto('../_imagens/multimidia.png')"><a href="fale-conosco-txt.html">Fale conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="corpo-full">
+        <article id="noticiaprincipal">
+            <header id="cabecalho-artigo">
+                <hgroup>
+                    <h3>Glass > Multimídia</h3>
+                    <h1>Sons e Vídeos</h1>
+                    <h2>por Lucas Grego</h2>
+                    <h3 class="direita">Atualizado em junho/2017</h3>
+                </hgroup>
+            </header>
+
+            <div id="tvradio">
+                <audio id="musica" controls>
+                    <source src="../_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg"/>
+                </audio>
+
+                <video id="filme" controls poster="../_imagens/video-mini03.jpg">
+                    <source src="../_media/getting-started.mp4" type="video/mp4"/>
+
+                </video>
+            </div>
+        </article>
+    <footer id="rodape">
+        <p>Copyright 2017 - by Lucas Grego <br/>
+            <a href="http://www.facebook.com" target="_blank">Facebook</a></p>
+    </footer>
+</div>
+</body>
+</html>
